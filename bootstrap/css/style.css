@@ -1,0 +1,55 @@
+html
+{
+
+	scroll-behavior: smooth;
+}
+
+
+
+
+.bg-teal,.btn-teal
+{
+	background-color: teal;
+}
+.text-teal {
+	color: teal;
+}
+
+
+
+
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+       border-radius: 0%
+}
+
+.carousel-caption
+{
+	bottom: 200px;
+}
+
+@media (max-width:575px)
+{
+	.carousel-caption
+	{
+		bottom: 0px !important;
+	}
+	.carousel-caption h5
+	{
+		font-size: 10px !important;
+	}
+
+	.carousel-caption p
+	{
+		font-size: 8px !important;
+	}
+	.btn-teal-sm {
+		font-size: 12px !important;
+		padding: 8px !important;
+	}
+	.slider-img-sm {
+		
+	}
+
+}
